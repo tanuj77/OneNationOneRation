@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NamespaceTypo">
+    <item
+        android1:id="@+id/item_home"
+        android1:title="Home"
+        android:showAsAction="never" />
+
+    <item
+        android1:id="@+id/item_language"
+        android1:title="Log Out"
+        android:showAsAction="never" />
+
+
+
+</menu>

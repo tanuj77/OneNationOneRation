@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <Spinner
+            android:id="@+id/spinner_state"
+            style="@style/Material.Widget.Spinner"
+            android:layout_width="match_parent"
+            app:rd_style="@style/Material.Drawable.Ripple.Wave"
+          android:layout_marginTop="100dp"
+            android:layout_height="40dp"
+            android:background="@color/White"
+            android:textAlignment="textStart"
+            android:accessibilityHeading="false">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinner_language"
+            style="@style/Material.Widget.Spinner"
+            android:layout_width="match_parent"
+            app:rd_style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:background="@color/White">
+        </Spinner>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/mainbutton"
+            android:text="@string/btn_submit"
+            android:textColor="@color/White" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

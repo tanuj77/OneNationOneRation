@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.vsr.onenationoneration.GrievancesListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:background="@color/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_grfd_grievancecodetxt"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Grievance Code"
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_grievancecodedots"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=" : "
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_grievancecode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_grfd_grievancedatetxt"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Grievance Date"
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_grfd_grievancedatedots"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=" : "
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_grievancedate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_grfd_subjecttxt"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_subjectdots"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=" : "
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_grfd_lateststatustxt"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Latest Status"
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_lateststatusdots"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=" : "
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_lateststatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_grfd_tqstfps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_grfd_descofgrievancetxt"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Description of Grievance"
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_descofgrievancedots"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=" : "
+                android:textColor="#ff9900"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_grfd_descofgrievance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:id="@+id/ll_grfd_attachements1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:id="@+id/tv_grfd_attachements1txt"-->
+<!--                android:layout_width="170dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="#ff9900"-->
+<!--                android:text="Attachements (if any)"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginLeft="5dp"/>-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_grfd_attachements1dots"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=" : "-->
+<!--                android:textColor="#ff9900"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginLeft="5dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/tv_grfd_attachements1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginLeft="5dp"/>-->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".5"
+        android:layout_marginBottom="40dp"
+       >
+        <LinearLayout
+            android:id="@+id/ll_headings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                 android:background="#000000" />
+        </LinearLayout>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_headings"
+           >
+
+            <!--            <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="fill_parent">-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_grievancefulldetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_weight="1">
+            </androidx.recyclerview.widget.RecyclerView>
+            <!--            </HorizontalScrollView>-->
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_griefull_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Response"
+            android:background="@drawable/mainbutton"
+            android:textColor="@color/White"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/DodgerBlue"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="35dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_bottom_departmentnamee"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Department Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text=":"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/tv_bottom_departmentname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="tv_departmentname"
+                    android:textColor="@color/White"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_bottom_statenamee"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:textStyle="bold"
+                    android:text="State Name"
+                    android:textColor="@color/White"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text=":"
+                    android:textColor="@color/White"/>
+                <TextView
+                    android:id="@+id/tv_bottom_statename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="tv_statename"
+                    android:textColor="@color/White"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_bottom_asonn"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textStyle="bold"
+                    android:text="As ON"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text=":"
+                    android:textColor="@color/White"/>
+                <TextView
+                    android:id="@+id/tv_bottom_ason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="tv_ason"
+                    android:textColor="@color/White"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_bottom_sourcenamee"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textStyle="bold"
+                    android:text="Source Name"
+                    android:textColor="@color/White"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text=":"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/tv_bottom_sourcename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="tv_sourcename"
+                    android:textColor="@color/White"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_Disclaimerr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textStyle="bold"
+                android:text="Disclaimer"
+                android:textColor="@color/White"/>
+
+            <TextView
+                android:id="@+id/tv_bottom_Disclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="TextView"
+                android:textColor="@color/White"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_bottom_poweredby"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:textStyle="bold"
+                    android:text="Powered By"
+                    android:textColor="@color/White"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text=":"
+                    android:textColor="@color/White"/>
+                <TextView
+                    android:id="@+id/tv_bottom_poweredbyy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="National Informatics Centre"
+                    android:textColor="@color/White"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

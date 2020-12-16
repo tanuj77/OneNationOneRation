@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_tmr_cn"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_cndots"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_commodityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_tmr_pmb"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_tmr_pmbdots"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_premonthbalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_aq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_tmr_aq"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_aqdots"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_allocatedqty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_tmr_ea"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_eadots"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_extraallocationqty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tmr_tqstfps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_tmr_tqstfps"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_tqstfpsdots"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_totalqtysendtofps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tmr_pqstfps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_tmr_pqstfps"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_tmr_pqstfpsdots"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_tmr_percqtysendtofps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tmr_aont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_tmr_aont"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+<!--        <TextView-->
+<!--            android:id="@+id/tv_tmr_aontdots"-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=" : "-->
+<!--            android:textColor="@color/DodgerBlue"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="5dp"/>-->
+        <TextView
+            android:id="@+id/tv_tmr_allocationordernotype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+    android:id="@+id/btn_detials"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/mainbutton"
+    android:textColor="@color/White"
+    android:layout_gravity="center_horizontal"
+    />
+
+</LinearLayout>

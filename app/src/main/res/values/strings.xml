@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PDS Passbook</string>
+
+    <string name="state_ap">Andhra Pradesh</string>
+    <string name="state_ap2">Arunachal Pradesh</string>
+    <string name="state_assam">Assam</string>
+    <string name="state_bihar">Bihar</string>
+    <string name="state_chhatisgarh">Chhatisgarh</string>
+    <string name="state_goa">Goa</string>
+    <string name="state_gujarat">Gujarat</string>
+    <string name="state_haryana">Haryana</string>
+    <string name="state_hp">Himachal Pradesh</string>
+    <string name="state_jharkhand">Jharkhand</string>
+    <string name="state_karnataka">Karnataka</string>
+    <string name="state_kerala">Kerala</string>
+    <string name="state_mp">Madhya Pradesh</string>
+    <string name="state_maharasthra">Maharasthra</string>
+    <string name="state_manipur">Manipur</string>
+    <string name="state_meghalaya">Meghalaya</string>
+    <string name="state_mizoram">Mizoram</string>
+    <string name="state_nagaland">Nagaland</string>
+    <string name="state_odisha">Odisha</string>
+    <string name="state_punjab">Punjab</string>
+    <string name="state_rajsthan">Rajsthan</string>
+
+    <string name="state_sikkim">Sikkim</string>
+    <string name="state_tn">Tamil Nadu</string>
+    <string name="state_telangana">Telangana</string>
+    <string name="state_tripura">Tripura</string>
+    <string name="state_uk">Uttarakhand</string>
+    <string name="state_up">Uttar Pradesh</string>
+    <string name="state_wb">West Bengal</string>
+
+    <string name="tv_adhaar">Adhaar No.:</string>
+
+    <string name="hint_adhaar">Enter Adhaar No.</string>
+    <!--    <string name="hint_usertype">Enter User Type</string>-->
+    <string name="btn_sign_up">Sign In</string>
+    <string name="err_msg_aadhar">Enter your Aadhar Number</string>
+
+    <string name="btn_submit">Submit</string>
+
+    <!--    home activity-->
+    <string name="btn_home_fd">Family\nDetails</string>
+    <string name="btn_home_re">Ration\nEntitlement</string>
+    <string name="btn_home_tmr">Track My\nRation</string>
+    <string name="btn_home_gc">Gas\nConnection</string>
+    <string name="btn_home_mrc">m-Ration\nCard</string>
+    <string name="btn_home_mg">My\nGrievances</string>
+
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RationEntitlementActivity"
+    tools:showIn="@layout/activity_rationentitlement"
+    android:orientation="vertical">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight=".5">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Scheme Name"
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:id="@+id/tv_re_schemename"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Alloc Month Year"
+                        android:textColor="#ff9900"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"/>
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:id="@+id/tv_re_allocmy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="FPS Name"
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:id="@+id/tv_re_fpsname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="FPS Code"
+                    android:textColor="#ff9900"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text=" : "
+                    android:textColor="#ff9900"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:id="@+id/tv_re_fpscode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="FPS Address"
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#ff9900"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+                        <TextView
+                            android:id="@+id/tv_re_fpsaddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight=".5"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:id="@+id/ll_headings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+    </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_headings">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:scrollbars="vertical"
+                    android:layout_weight="1">
+                </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+</RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_re_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Part-2  NEXT  "
+        android:background="@drawable/mainbutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"/>
+    <!-- include progress layout that will be displayed while loading more data -->
+    <!-- initially it is hidden -->
+
+    <include
+        android:id="@+id/loadItemsLayout_recyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/progress_layout"
+        android:visibility="gone" />
+
+</LinearLayout>

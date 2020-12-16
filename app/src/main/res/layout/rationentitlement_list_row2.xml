@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Commodity Name"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_commodity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Unit"-->
+<!--            android:textColor="@color/DodgerBlue"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="5dp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=" : "-->
+<!--            android:textColor="@color/DodgerBlue"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="5dp"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_re_unit"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="5dp"/>-->
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Entitled Quantity"
+            android:textColor="@color/DodgerBlue"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_entitledquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Economy Price/Unit"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_economypriceperunit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Central Issue Price/Unit"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_centralissueprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="State Subsidy/Unit"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_statesubsidy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Other Expenses/Unit"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_otherexpenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sales Price/Unit"
+            android:textColor="@color/DodgerBlue"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_salesprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Amount To Be Paid"
+            android:textColor="@color/DodgerBlue"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_amounttobepaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Subsidy borne by Govt."
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_totalsubsidy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Allocation Order No./Type"
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textColor="@color/DodgerBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_re_allocationorderno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
